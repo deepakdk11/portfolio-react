@@ -1,10 +1,17 @@
 import React from "react"
+import Header from "./components/Header"
 
 function App() {
+  const [darkMode, setDarkMode] = React.useState(false);
+
+    const darkModeHandler = () => {
+        setDarkMode(!darkMode);
+        document.body.classList.toggle("dark");
+    }
 
   return (
     <div>
-      <h1 className="text-3xl font-bold underline text-red-500" >Hello World!</h1>
+      <Header darkMode={darkMode} darkModeHandler={darkModeHandler}/>
     </div>
   )
 }
