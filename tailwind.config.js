@@ -5,7 +5,24 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'outfit' : ["Outfit", "sans-serif"],
+        'roboto' : ["Roboto", "sans-serif"]
+      },
+      colors:{
+        'facebook': '#3b5999',
+        'linkedin': '#0077b5',
+        'instagram': '#e4405f'
+      },
+      width: {
+        '128': '32rem',
+      },
+      backgroundImage: {
+        'home-image' : "url('./assets/home.jpg')",
+      },
+      
+    },
   },
   plugins: [],
   darkMode:'selector'

@@ -7,19 +7,19 @@ import NavBar from './NavBar';
 const Header = ({darkMode, darkModeHandler}) => {
     const [menu, setMenu] = useState(false)
   return (
-    <header className='bg-white text-black flex justify-between items-center w-full border-b-2 py-2 px-8 backdrop-filter backdrop-blur-lg dark:bg-black dark:text-white'>
+     <header className='border-gray-200 border-b-0 z-30 min-w-full backdrop-filter backdrop-blur-lg text-black flex justify-between items-center w-full py-2 px-8 dark:bg-black dark:text-white fixed'>
         <div className='flex-1'>
             <h1>Depakkumar</h1>
         </div>
         
-        <nav className='mx-6 w-96 hidden md:block'>
+        <nav className='mx-6 w-128 hidden md:block'>
             <ul className='flex justify-between' >
-                <li className='px-2 hover:border-b-2 hover:text-blue-500'><a href="">Home</a></li>
-                <li className='px-2 hover:border-b-2 hover:text-blue-500'><a href="">About</a></li>
-                <li className='px-2 hover:border-b-2 hover:text-blue-500'><a href="">Skills</a></li>
-                <li className='px-2 hover:border-b-2 hover:text-blue-500'><a href="">Education</a></li>
-                <li className='px-2 hover:border-b-2 hover:text-blue-500'><a href="">Projects</a></li>
-                <li className='px-2 hover:border-b-2 hover:text-blue-500'><a href="">Contact</a></li>
+                <li className='px-4 hover:border-b-2 hover:text-blue-500'><a href="">Home</a></li>
+                <li className='px-4 hover:border-b-2 hover:text-blue-500'><a href="">About</a></li>
+                <li className='px-4 hover:border-b-2 hover:text-blue-500'><a href="">Skills</a></li>
+                <li className='px-4 hover:border-b-2 hover:text-blue-500'><a href="">Education</a></li>
+                <li className='px-4 hover:border-b-2 hover:text-blue-500'><a href="">Projects</a></li>
+                <li className='px-4 hover:border-b-2 hover:text-blue-500'><a href="">Contact</a></li>
             </ul>
         </nav>
 
