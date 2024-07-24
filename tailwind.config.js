@@ -17,6 +17,10 @@ export default {
       },
       width: {
         '128': '32rem',
+        'large':'72rem'
+      },
+      height:{
+        '128':'32rem'
       },
       backgroundImage: {
         'home-image' : "url('./assets/home.jpg')",

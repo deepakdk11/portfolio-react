@@ -14,7 +14,7 @@ const Home = () => {
   });
 
   return (
-    <div className='bg-home-image  h-screen flex flex-col justify-between p-10 items-center lg:flex-row md:flex-col dark:bg-none dark:bg-black dark:text-white'>
+    <div className='bg-home-image bg-cover min-h-screen flex flex-col justify-between p-10 items-center lg:flex-row md:flex-col dark:bg-none dark:bg-black dark:text-white'>
       <div className='w-fit h-fit my-20'>
         <h1 className='text-3xl font-bold mb-2 lg:text-5xl md:text-5xl'>Hi <span className='text-yellow-400'>There</span>,</h1>
         <h1 className='text-3xl font-bold mb-2 lg:text-5xl md:text-5xl'>I'm Deepakkumar</h1>
@@ -24,8 +24,7 @@ const Home = () => {
           <span><Cursor /></span>
         </h2>
         <div className='flex justify-between w-full'>
-          <button className=' text-sm lg:text-base md:text-base px-4 py-2 my-4  rounded-lg w-fit bg-black text-white'>About Me &#11163;</button>
-          {/* <button className=' text-sm lg:text-base md:text-base px-4 py-2 my-4 rounded-full w-fit bg-red-700 text-white'>Download CV &#11163;</button> */}
+          <button className=' text-sm lg:text-base md:text-base px-4 py-2 my-4  rounded-lg w-fit bg-black text-white hover:drop-shadow-xl transition-all'>About Me &#11163;</button>
         </div>
         
         <div className='flex justify-between mt-3'>
