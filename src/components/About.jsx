@@ -3,8 +3,8 @@ import mee from '../assets/mee.jpg'
 
 const About = () => {
   return (
-    <div className='py-10 dark:bg-black dark:text-white'>
-      <div className='w-full mb-10'>
+    <div className='py-10 dark:bg-black dark:text-white '>
+      <div className='w-full mb-10 '>
         <h1 className='text-4xl text-center'>About Me</h1>
       </div>
       <div className='flex flex-col md:px-20 items-center lg:flex-row '>
@@ -22,7 +22,7 @@ const About = () => {
             high-quality projects. Currently seeking a Front-End Developer position to apply my skills and continue 
             growing in a collaborative and dynamic environment.
             </p>
-            <p className='my-2 text-sky-600'>Email :<a href="mailto:adkdeepak07@gmail.com" className='text-black'> adkdeepak07@gmail.com</a></p>
+            <p className='my-2 text-sky-600'>Email :<a href="mailto:adkdeepak07@gmail.com" className='text-black dark:text-white'> adkdeepak07@gmail.com</a></p>
             <p className='my-2 mb-4'><span className='text-sky-600'>Location :</span> Bengaluru</p>
             <a target='_blank' href='' className='px-4 py-1 bg-sky-600 text-lg rounded-md text-white hover:drop-shadow-xl transition-all'>Resume &#11162;</a>
         </div>
