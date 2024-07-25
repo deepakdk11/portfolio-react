@@ -3,13 +3,13 @@ import mee from '../assets/mee.jpg'
 
 const About = () => {
   return (
-    <div className='py-10 dark:bg-black dark:text-white '>
+    <div className='py-10 dark:bg-black dark:text-white ' id='about'>
       <div className='w-full mb-10 '>
         <h1 className='text-4xl text-center'>About Me</h1>
       </div>
       <div className='flex flex-col md:px-20 items-center lg:flex-row '>
-        <div className=' md:w-large'>
-            <img src={mee} alt="" className='w-52 rounded-lg md:w-60 object-cover   transition-all' />
+        <div className=' md:w-full'>
+            <img src={mee} alt="" className='w-52 rounded-lg mx-auto  md:w-60 object-cover   transition-all' />
         </div>          
         <div className='px-10'>
             <p className='text-2xl font-bold my-4'>Deepakkumar</p>

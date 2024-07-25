@@ -14,7 +14,7 @@ const Home = () => {
   });
 
   return (
-    <div className='bg-home-image bg-cover min-h-screen flex flex-col justify-between p-10 items-center lg:flex-row md:flex-col dark:bg-none dark:bg-black dark:text-white'>
+    <div className='bg-home-image bg-cover min-h-screen flex flex-col justify-between p-10 items-center lg:flex-row md:flex-col dark:bg-none dark:bg-black dark:text-white' id='home'>
       <div className='w-fit h-fit my-20'>
         <h1 className='text-3xl font-bold mb-2 lg:text-5xl md:text-5xl'>Hi <span className='text-yellow-400'>There</span>,</h1>
         <h1 className='text-3xl font-bold mb-2 lg:text-5xl md:text-5xl'>I'm Deepakkumar</h1>
