@@ -1,5 +1,6 @@
 import React from 'react'
 import mee from '../assets/mee.jpg'
+import {links} from '../assets/assets.js'
 
 const About = () => {
   return (
@@ -24,7 +25,7 @@ const About = () => {
             </p>
             <p className='my-2 text-sky-600'>Email :<a href="mailto:adkdeepak07@gmail.com" className='text-black dark:text-white'> adkdeepak07@gmail.com</a></p>
             <p className='my-2 mb-4'><span className='text-sky-600'>Location :</span> Bengaluru</p>
-            <a target='_blank' href='' className='px-4 py-1 bg-sky-600 text-lg rounded-md text-white hover:drop-shadow-xl transition-all'>Resume &#11162;</a>
+            <a target='_blank' href={links.resume} className='px-4 py-1 bg-sky-600 text-lg rounded-md text-white hover:drop-shadow-xl transition-all'>Resume &#11162;</a>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import { RiFacebookFill, RiGithubFill, RiInstagramFill, RiLinkedinFill, RiTwitterXFill } from "react-icons/ri";
 import img3 from '../assets/img3.png'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import {links} from '../assets/assets.js'
 
 
 const Home = () => {
@@ -24,15 +25,15 @@ const Home = () => {
           <span><Cursor /></span>
         </h2>
         <div className='flex justify-between w-full'>
-          <button className=' text-sm lg:text-base md:text-base px-4 py-2 my-4  rounded-lg w-fit bg-black text-white hover:drop-shadow-xl transition-all'>About Me &#11163;</button>
+          <a href='#about' className=' text-sm lg:text-base md:text-base px-4 py-2 my-4  rounded-lg w-fit bg-black text-white hover:drop-shadow-xl transition-all'>About Me &#11163;</a>
         </div>
         
         <div className='flex justify-between mt-3'>
-          <a href='' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-black hover:bg-slate-300 hover:transition-all'><RiTwitterXFill size={25} /></a>
-          <a href='' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-instagram hover:bg-slate-300 hover:transition-all'><RiInstagramFill size={25} /></a>
-          <a href='' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-black hover:bg-slate-300 hover:transition-all'> <RiGithubFill size={25} /> </a>
-          <a href='' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-linkedin hover:bg-slate-300 hover:transition-all'> <RiLinkedinFill size={25} /> </a>
-          <a href="" className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-facebook hover:bg-slate-300 hover:transition-all'> <RiFacebookFill size={25} /> </a>
+          <a href={links.twitter} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-black hover:bg-slate-300 hover:transition-all'><RiTwitterXFill size={25} /></a>
+          <a href={links.instagram} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-instagram hover:bg-slate-300 hover:transition-all'><RiInstagramFill size={25} /></a>
+          <a href={links.github} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-black hover:bg-slate-300 hover:transition-all'> <RiGithubFill size={25} /> </a>
+          <a href={links.linkedin} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-linkedin hover:bg-slate-300 hover:transition-all'> <RiLinkedinFill size={25} /> </a>
+          <a href={links.instagram} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-facebook hover:bg-slate-300 hover:transition-all'> <RiFacebookFill size={25} /> </a>
         </div>
       </div>
       <div className='' >

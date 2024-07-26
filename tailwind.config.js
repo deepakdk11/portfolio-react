@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily:{
         'outfit' : ["Outfit", "sans-serif"],
-        'roboto' : ["Roboto", "sans-serif"]
+        'roboto' : ["Roboto", "sans-serif"],
+        'dancing' : ["Dancing Script", "cursive"]
       },
       colors:{
         'facebook': '#3b5999',
