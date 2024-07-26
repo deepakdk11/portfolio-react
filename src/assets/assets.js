@@ -153,5 +153,5 @@ export const links = {
    twitter : "https://x.com/Deepak5424?t=3V367Kx6RsyTLXR0P8Ia6g&s=08",
    instagram : "https://www.instagram.com/deepak_stark_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
    github : "https://github.com/deepakdk11",
-   resume: "https://drive.google.com/file/d/1nffw-Wv1Pcpw2ZbqoPTyDwzmWFXK79uw/view?usp=drive_link"
+   resume: "https://drive.google.com/file/d/1nffw-Wv1Pcpw2ZbqoPTyDwzmWFXK79uw/view?usp=sharing"
 }

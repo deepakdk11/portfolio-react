@@ -28,12 +28,12 @@ const Projects = () => {
                 <p className='text-gray-600 dark:text-gray-400'>{pro.description}</p>
                 <div className='w-full flex justify-between my-4'>
                     <div className='flex items-center bg-white py-1 px-2 rounded-md text-black'>
-                       <a href={pro.link} className='pr-2' >View Link</a>
+                       <a target='_blank' href={pro.link} className='pr-2' >View Link</a>
                        <FaExternalLinkAlt size={10} /> 
                     </div>
                     
                     <div className='flex items-center font-thin bg-black py-1 px-2 rounded-md text-white'>
-                        <a href={pro.code} className='pr-2'>Score Code</a>
+                        <a target='_blank' href={pro.code} className='pr-2'>Score Code</a>
                         <FaCode size={10} />
                     </div> 
                 </div>
@@ -48,12 +48,12 @@ const Projects = () => {
                  
                 <div className='w-full flex justify-between my-4'>
                     <div className='flex items-center bg-white py-1 px-2 rounded-md text-black'>
-                       <a href={pro.link} className='pr-2' >View Link</a>
+                       <a target='_blank' href={pro.link} className='pr-2' >View Link</a>
                        <FaExternalLinkAlt size={10} /> 
                     </div>
                     
                     <div className='flex items-center font-thin bg-black py-1 px-2 rounded-md text-white'>
-                        <a href={pro.code} className='pr-2'>Score Code</a>
+                        <a target='_blank' href={pro.code} className='pr-2'>Score Code</a>
                         <FaCode size={10} />
                     </div> 
                 </div>
