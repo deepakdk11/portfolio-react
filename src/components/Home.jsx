@@ -15,8 +15,8 @@ const Home = () => {
   });
 
   return (
-    <div className='justify-normal bg-home-image bg-cover min-h-screen flex flex-col md:justify-between p-10 items-center lg:flex-row md:flex-col dark:bg-none dark:bg-black dark:text-white' id='home'>
-      <div className='w-4/5 sm:w-fit md:w-fit h-fit my-24'>
+    <div className='justify-normal bg-home-image bg-cover h-screen flex flex-col md:justify-between p-10 items-center lg:flex-row md:flex-col dark:bg-none dark:bg-black dark:text-white' id='home'>
+      <div className='w-full sm:w-fit md:w-fit h-fit my-24'>
         <h1 className='text-4xl sm:text-4xl font-bold mb-2 lg:text-5xl md:text-5xl'>Hi <span className='text-yellow-400'>There</span>,</h1>
         <h1 className='text-4xl sm:text-4xl font-bold mb-2 lg:text-5xl md:text-5xl'>I'm Deepakkumar</h1>
         <h2 className=' text-xl sm:text-xl my-4 lg:text-3xl md:text-3xl '>
@@ -36,7 +36,7 @@ const Home = () => {
           <a href={links.instagram} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-facebook hover:bg-slate-300 hover:transition-all'> <RiFacebookFill size={25} /> </a>
         </div>
       </div>
-      <div className='' >
+      <div className='mt-10' >
         <img  className='w-128' src={img3} alt="" />
       </div>
     </div>
