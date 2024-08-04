@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiFacebookFill, RiGithubFill, RiInstagramFill, RiLinkedinFill, RiTwitterXFill } from "react-icons/ri";
+import { FaHandPointDown } from "react-icons/fa";
 import img3 from '../assets/img3.png'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import {links} from '../assets/assets.js'
@@ -24,8 +25,9 @@ const Home = () => {
           <span className='text-red-500'> {textEffect}</span>
           <span><Cursor /></span>
         </h2>
-        <div className='flex justify-between w-full'>
-          <a href='#about' className=' text-sm lg:text-base md:text-base px-4 py-2 my-4  rounded-lg w-fit bg-black text-white hover:drop-shadow-xl transition-all'>About Me &#11163;</a>
+        <div className='flex justify-between items-center w-fit text-sm lg:text-base md:text-base px-4 py-2 my-4  rounded-lg  bg-black text-white hover:drop-shadow-xl transition-all dark:bg-gray-600'>
+          <a href='#about' className=' '>About Me</a>
+          <FaHandPointDown className='ml-2' />
         </div>
         
         <div className='flex justify-between mt-3'>
