@@ -1,8 +1,55 @@
-# React + Vite
+# Personal Portfolio ⚡️ 
+> A clean, beautiful, responsive portfolio template for Front end Developer!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> [text](https://deepakdk11.netlify.app/)
 
-Currently, two official plugins are available:
+### Website Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot (26)](https://github.com/user-attachments/assets/3cb28f6e-98fd-4c9b-a690-fd71615a1aa3)
+![Screenshot (27)](https://github.com/user-attachments/assets/9816bd8b-165a-459a-82cf-71c36c5cf9bf)
+
+:star: Star me on GitHub — it helps!
+
+## Features 📋
+⚡️ Fully Responsive\
+⚡️ Valid React JS & Tailwind CSS\
+⚡️ Typing animation\
+⚡️ Dark Mode\
+⚡️ Easy to modify
+
+## Sections 📚
+✔️ About me\
+✔️ Experience\
+✔️ Projects \
+✔️ Skills \
+✔️ Education\
+✔️ Contact Info\
+✔️ Resume
+
+To view a live example, **[click here](https://deepakdk11.netlify.app/)**
+
+## Tools Used 🛠️
+* [<b>Vite + React</b>](https://vitejs.dev/) - Vite is an extremely fast and lightweight web application build tool.
+* [<b>Tailwind CSS</b>](https://tailwindcss.com/) - Tailwind CSS is a design system implementation in pure CSS.
+* [<b>Netlify</b>](https://app.netlify.com/) - To host my static website.
+
+## Contributing 💡
+#### Step 1
+
+- **Option 1**
+    - 🍴 Fork this repo!
+
+- **Option 2**
+    - 👯 Clone this repo to your local machine.
+
+
+#### Step 2
+
+- **Build your code** 🔨🔨🔨
+
+#### Step 3
+
+- 🔃 Create a new pull request.
+
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
