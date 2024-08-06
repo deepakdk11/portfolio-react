@@ -30,12 +30,43 @@ const Home = () => {
           <FaHandPointDown className='ml-2' />
         </div>
         
-        <div className='flex justify-between mt-3'>
-          <a href={links.twitter} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-black hover:bg-slate-300 hover:transition-all'><RiTwitterXFill size={25} /></a>
-          <a href={links.instagram} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-instagram hover:bg-slate-300 hover:transition-all'><RiInstagramFill size={25} /></a>
-          <a href={links.github} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-black hover:bg-slate-300 hover:transition-all'> <RiGithubFill size={25} /> </a>
-          <a href={links.linkedin} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-linkedin hover:bg-slate-300 hover:transition-all'> <RiLinkedinFill size={25} /> </a>
-          <a href={links.instagram} target='_blank' className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-facebook hover:bg-slate-300 hover:transition-all'> <RiFacebookFill size={25} /> </a>
+        <div className='flex justify-between mt-5'>
+
+          <a 
+            href={links.twitter}
+            target='_blank'
+            className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-black hover:bg-slate-300 hover:transition-all'>
+            <RiTwitterXFill size={25} />
+          </a>
+
+          <a 
+            href={links.instagram}
+            target='_blank'
+            className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-instagram hover:bg-slate-300 hover:transition-all'>
+            <RiInstagramFill size={25} />
+          </a>
+
+          <a
+            href={links.github}
+            target='_blank'
+            className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-black hover:bg-slate-300 hover:transition-all'>
+            <RiGithubFill size={25} />
+          </a>
+
+          <a
+            href={links.linkedin}
+            target='_blank'
+            className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-linkedin hover:bg-slate-300 hover:transition-all'>
+            <RiLinkedinFill size={25} />
+          </a>
+
+          <a
+            href={links.instagram}
+            target='_blank'
+            className='w-fit p-2 bg-sky-600 rounded-full text-white cursor-pointer hover:text-facebook hover:bg-slate-300 hover:transition-all'>
+            <RiFacebookFill size={25} />
+          </a>
+        
         </div>
       </div>
       <div className='mt-10' >

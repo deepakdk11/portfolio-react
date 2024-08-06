@@ -9,9 +9,8 @@ import logo2 from "../assets/logo2.png"
 const Header = ({darkMode, darkModeHandler}) => {
     const [menu, setMenu] = useState(false)
   return (
-     <header className='border-gray-200 border-b-0 z-30  backdrop-filter backdrop-blur-lg text-black flex justify-between items-center w-full py-2 px-8  dark:text-white fixed '>
+     <header className='border-gray-200 border-b-0 z-30  backdrop-filter backdrop-blur-lg text-black flex justify-between items-center w-full py-2 px-4  dark:text-white fixed '>
         <div className='flex-1'>
-            {/* <h1 className='font-dancing font-bold text-2xl'>Depakkumar</h1> */}
             {darkMode ? <img src={logo2} alt="" className='w-12 dark:shadow-white' />
             :<img src={logo} alt="" className='w-12 dark:shadow-white' />
             }
@@ -32,7 +31,7 @@ const Header = ({darkMode, darkModeHandler}) => {
 
         <div className='bg-white hover:bg-slate-100 dark:hover:bg-blue-800 dark:bg-black p-1 rounded-full' onClick={() => darkModeHandler()}>
          {darkMode && <CiLight size={25} className='cursor-pointer text-slate-400 dark:text-white'/>}
-          {!darkMode && <MdOutlineDarkMode size={25} className='cursor-pointer text-slate-400' />}
+         {!darkMode && <MdOutlineDarkMode size={25} className='cursor-pointer text-slate-400' />}
         </div>
 
         <div className='p-1 mx-1 md:hidden' >
