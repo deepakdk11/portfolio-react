@@ -10,8 +10,8 @@ const Education = () => {
         <IoSchoolSharp size={40} />
         <h1 className="text-4xl ml-2">My Education</h1>
       </div>
-      <div className="my-10">
-        <div className=" flex flex-col items-center md: md:flex-row w-fit my-10 mx-auto p-4 bg-slate-200 rounded-md dark:bg-gray-900">
+      <div className="my-10 ">
+        <div className=" flex flex-col items-center md: md:flex-row w-fit my-10 mx-auto p-4 bg-slate-200 rounded-md  dark:bg-gray-900">
           <img src={hicas} alt="HICAC" className="w-fit md:w-40 rounded-md" />
           <div className="md:mx-5">
             <h1 className="text-2xl sm:text-4xl text-blue-600 mt-4 md:mt-0 md:font-normal md:text-4xl">

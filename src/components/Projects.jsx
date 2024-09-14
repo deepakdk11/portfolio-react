@@ -22,8 +22,8 @@ const Projects = () => {
       <div className='flex flex-col lg:flex-row w-fit my-10 mx-auto'>
         {changeProject === "react" ?
            reactProjects.map((pro) => 
-            <div key={pro.id} className=' bg-slate-200 rounded-md p-4 w-80 my-4 md:mx-4 dark:bg-gray-900'>
-                <img src={pro.image} alt={pro.name} className='w-80 rounded-md' />
+            <div key={pro.id} className=' bg-slate-200 rounded-md p-4 w-80 my-4 md:mx-4 transition-all hover:scale-110 hover:opacity-100 dark:bg-gray-900'>
+                <img src={pro.image} alt={pro.name} className='w-80 rounded-md ' />
                 <p className='text-xl py-4 font-bold'>{pro.name}</p>
                 <p className='text-gray-600 dark:text-gray-400'>{pro.description}</p>
                 <div className='w-full flex justify-between my-4'>
@@ -41,7 +41,7 @@ const Projects = () => {
         ):
         changeProject==="javascript" ?
         javascriptProjects.map((pro) => 
-            <div key={pro.id} className=' bg-slate-200 rounded-md p-4 w-80 my-4 md:mx-4 dark:bg-gray-900'>
+            <div key={pro.id} className=' bg-slate-200 rounded-md p-4 w-80 my-4 md:mx-4 transition-all hover:scale-110 hover:opacity-100 dark:bg-gray-900'>
                 <img src={pro.image} alt={pro.name} className='w-80 rounded-md' />
                 <p className='text-xl py-4 font-bold'>{pro.name}</p>
                 <p className='text-gray-600 dark:text-gray-400'>{pro.description}</p>
