@@ -13,6 +13,7 @@ import chrome from './icons/chrome.png'
 import figma from './icons/figma.png'
 import canva from './icons/canva.png'
 
+import netflix from './projects/netflix.png'
 import ecommerce from './projects/ecommerce.png'
 import leaderboard from './projects/leaderboard.png'
 import todolist from './projects/todolist.png'
@@ -95,6 +96,14 @@ export const toolsIcons = [
 export const reactProjects = [
    {
       id : 1,
+      name : "Netflix Clone",
+      image : netflix,
+      description : "Created a Netflix-Clone app with React JS, using Redux for state management and React Hooks for UI updates. Designed a responsive interface with Tailwind CSS, fetched movie data using axios, and used Firebase for authentication and hosting.",
+      link : "https://nfxclonereact.web.app/",
+      code: "https://github.com/deepakdk11/Netflix-clone"
+   },
+   {
+      id : 2,
       name : "eCommerce Website",
       image : ecommerce,
       description : "Developed an eCommerce website named 'Modern Bags' using React JS, aimed at enhancing the online shopping experience for bags",
@@ -102,7 +111,7 @@ export const reactProjects = [
       code: "https://github.com/deepakdk11/modern-bags"
    },
    {
-      id : 2,
+      id : 3,
       name : "Leader Board",
       image : leaderboard,
       description : "I'm building a leaderboard in React JS where you can add, remove, and sort players by scores. It has features like awarding prizes to top players and a button to reset the leaderboard.",
@@ -110,7 +119,7 @@ export const reactProjects = [
       code : "https://github.com/deepakdk11/leaderboard-project"
    },
    {
-      id : 3,
+      id : 4,
       name : "TO-DO-LIST",
       image : todolist,
       description : "Developed a responsive TO-DO LIST application using React JS, incorporating dynamic features such as adding and removing tasks, ensuring a seamless user experience across devices.",
@@ -153,5 +162,5 @@ export const links = {
    twitter : "https://x.com/Deepak5424?t=3V367Kx6RsyTLXR0P8Ia6g&s=08",
    instagram : "https://www.instagram.com/deepak_stark_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
    github : "https://github.com/deepakdk11",
-   resume: "https://drive.google.com/file/d/1xvf-9CR6jKpx4CSeA-2ybTqmWvCR0Uid/view?usp=sharing"
+   resume: "https://drive.google.com/file/d/1CbnoJTMgYWf-SsmYEuFG1ddFW0SG9AwK/view?usp=sharing"
 }
