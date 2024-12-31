@@ -5,6 +5,7 @@ import react from './icons/react.png'
 import tailwind from './icons/tailwind.png'
 import bootstrap from './icons/bootstrap.png'
 import jquery from './icons/jquery.png'
+import redux from './icons/redux.png'
 
 import git from './icons/git.png'
 import github from './icons/github.png'
@@ -13,6 +14,7 @@ import chrome from './icons/chrome.png'
 import figma from './icons/figma.png'
 import canva from './icons/canva.png'
 
+import boardscape from './projects/boardscape.png'
 import netflix from './projects/netflix.png'
 import ecommerce from './projects/ecommerce.png'
 import leaderboard from './projects/leaderboard.png'
@@ -51,6 +53,10 @@ export const icons = [
     id : 7,
     image : jquery,
     name : "jQuery"
+ },{
+   id : 8,
+   image : redux,
+   name : "Redux"
  }
 ]
 
@@ -96,6 +102,14 @@ export const toolsIcons = [
 export const reactProjects = [
    {
       id : 1,
+      name : "BoardScape",
+      image : boardscape,
+      description : " Boardscapee is a Trello-like app where users can add, edit, delete, and move tasks and lists easily using drag-and-drop. It’s built with React, uses Firebase for storing data and hosting, and is available online at Boardscapee.",
+      link : "https://boardscapee.web.app/",
+      code: "https://github.com/deepakdk11/BoardScape.git"
+   },
+   {
+      id : 2,
       name : "Netflix Clone",
       image : netflix,
       description : "Created a Netflix-Clone app with React JS, using Redux for state management and React Hooks for UI updates. Designed a responsive interface with Tailwind CSS, fetched movie data using axios, and used Firebase for authentication and hosting.",
@@ -103,7 +117,7 @@ export const reactProjects = [
       code: "https://github.com/deepakdk11/Netflix-clone"
    },
    {
-      id : 2,
+      id : 3,
       name : "eCommerce Website",
       image : ecommerce,
       description : "Developed an eCommerce website named 'Modern Bags' using React JS, aimed at enhancing the online shopping experience for bags",
@@ -111,7 +125,7 @@ export const reactProjects = [
       code: "https://github.com/deepakdk11/modern-bags"
    },
    {
-      id : 3,
+      id : 4,
       name : "Leader Board",
       image : leaderboard,
       description : "I'm building a leaderboard in React JS where you can add, remove, and sort players by scores. It has features like awarding prizes to top players and a button to reset the leaderboard.",
@@ -119,7 +133,7 @@ export const reactProjects = [
       code : "https://github.com/deepakdk11/leaderboard-project"
    },
    {
-      id : 4,
+      id : 5,
       name : "TO-DO-LIST",
       image : todolist,
       description : "Developed a responsive TO-DO LIST application using React JS, incorporating dynamic features such as adding and removing tasks, ensuring a seamless user experience across devices.",
@@ -162,5 +176,12 @@ export const links = {
    twitter : "https://x.com/Deepak5424?t=3V367Kx6RsyTLXR0P8Ia6g&s=08",
    instagram : "https://www.instagram.com/deepak_stark_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
    github : "https://github.com/deepakdk11",
-   resume: "https://drive.google.com/file/d/1CbnoJTMgYWf-SsmYEuFG1ddFW0SG9AwK/view?usp=sharing"
+   resume: "https://docs.google.com/document/d/1RNUGXq-O7Q_Gob2OcnxznKsiK9PNvns77jzQeqj6PKk/edit?usp=sharing"
 }
+
+export const bio = `Junior Front-End Developer with a strong foundation in HTML, CSS, Tailwind CSS, Bootstrap, JavaScript, 
+            jQuery and React JS. Recently completed a comprehensive web development course on Udemy, where I gained 
+            hands-on experience by developing an eCommerce website and several other projects. Dedicated to building 
+            responsive, user-friendly interfaces and passionate about leveraging modern web technologies to deliver 
+            high-quality projects. Currently seeking a Front-End Developer position to apply my skills and continue 
+            growing in a collaborative and dynamic environment.`;
